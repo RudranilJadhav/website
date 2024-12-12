@@ -1,0 +1,79 @@
+.header{
+    background-color:rgb(19,62,135);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right:0px;
+}
+.profile-pic{
+    width: 60px;
+    border-radius: 50%;
+}
+.profile-name{
+    color: white;
+    font-size: 20px;
+    font-family: Caveat;
+    margin-left: 10px;
+}
+.left-section{
+    margin-left: 20px;
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    flex:1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:15px;
+    margin-right:15px;
+}
+.right-section{
+    margin-right: 20px;
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.nav-button{
+    background-color: rgb(203, 220, 235);
+    font-size: 20px;
+    font-family: Caveat;
+    margin-left: 20px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    transition: 1s;
+    cursor: pointer;
+}
+.nav-button:hover{
+    opacity: 0.7;
+}
+.nav-button:active{
+    transform: scale(0.9);
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    width: 30px;
+}
+.github,.leetcode,.linkedin,.gmail,.instagram,.codeforces{
+    width: 100%;
+    margin-left: 30px;
+    flex:1;
+    cursor: pointer;
+}
+.gmail,.instagram{
+    border-radius: 50%;
+}
+.github,.leetcode,.linkedin,.gmail,.instagram,.codeforces :active{
+    opacity: 0.7;
+}

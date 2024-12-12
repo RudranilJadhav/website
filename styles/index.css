@@ -1,0 +1,29 @@
+.index-body {
+    display: grid;
+    place-content: center;
+    height: 77vh;
+}
+.intro-container {
+    display: grid;
+    width: 300px;
+    background-color: rgb(96, 139, 193);
+    padding: 50px;
+    border-radius: 15%;
+    place-content: center;
+    border: 5px solid white;
+    box-shadow: 10px 10px 10px 0px black;
+}
+.title {
+    color: white;
+    font-size: 30px;
+    font-family: Caveat;
+    text-align: center;
+    padding: 30px;
+}
+.about-me{
+    color: white;
+    font-size: 20px;
+    font-family: Caveat;
+    text-align: center;
+    padding: 30px;
+}

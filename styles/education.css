@@ -1,0 +1,34 @@
+.education-body{
+    display: grid;
+    place-content: center;
+    height: 77vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.education-container{
+    display: grid;
+    width: 300px;
+    background-color: rgb(96, 139, 193);
+    padding: 50px;
+    border-radius: 15%;
+    place-content: center;
+    border: 5px solid white;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 20px;
+    height: 300px
+}
+.education-title{
+    color: white;
+    font-size: 30px;
+    font-family: Caveat;
+    text-align: center;
+    padding: 30px;
+}
+.education-about{
+    color: white;
+    font-size: 20px;
+    font-family: Caveat;
+    text-align: center;
+    padding: 30px;
+}
